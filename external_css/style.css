@@ -1,0 +1,43 @@
+h1 {
+    color: red;
+    text-align: center;
+    /* left, right, justify */
+    background-color: yellow;
+    font-weight: lighter;
+    /* bold, lighter, bolder, 100-900 */
+    word-spacing: 45px;
+}
+
+div {
+    text-align: center;
+}
+
+.p1 {
+    text-align: justify;
+    font-family: Dancing Script;
+    /* you can use either word or online methods like google fonts */
+    font-size: 40px;
+    font-weight: bold;
+    /* 100-900 */
+    text-decoration: line-through blue double;
+    /*underline, overline, none  */
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 5px;
+    /* text-shadow: x-axis y-axis blur color; */
+    text-shadow: 20px 10px 5px black;
+    text-transform: capitalize;
+    /* uppercase, lowercase, capitalize */
+}
+
+.h31 {
+    background-color: blue;
+}
+
+.h32 {
+    background-color: pink;
+    padding: 10px 20px 30px 40px;
+    margin: 50px;
+}

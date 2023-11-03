@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>moving car</title>
+    <style>
+        .c1{
+            background-color: aliceblue;
+            background-image: url(Screenshot\ 2023-10-31\ 100926.png);
+            margin-top:200px;
+            height: 400px;
+            padding: 0%;
+        }
+        .d1{
+            animation-name:demo;
+            animation-duration:10s;
+            animation-delay: 3s;
+            position: absolute;
+            animation-iteration-count: infinite;
+            
+        }
+        .tire{
+            animation-name:demo1;
+            animation-duration:10s;
+            animation-delay: 3s;
+            position: absolute;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes demo {
+            from{
+               left:0px;
+            }
+            to{
+               
+               left:1500px;
+            }
+            
+        }@keyframes demo1 {
+            
+            from{
+               transform: rotate(0deg);
+               left:0px;
+            }
+            to{
+               transform: rotate(2900deg);
+               left:1500px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+        <img  class=" d1" src="car without tyre.png" style=" width:200px ; margin-top: 265px;">
+        
+        <img  class=" tire " src="tyre png.png" style=" width:40px ; margin-top: 360px;margin-left: 24px;">
+        <img class=" tire " src="tyre png.png" style=" width:40px ; margin-top: 360px;margin-left: 126px;">
+        
+    </div>
+</body>
+</html>

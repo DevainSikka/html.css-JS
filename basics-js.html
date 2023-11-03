@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onmouseover="getMsg()">hit</button>
+    <br/>
+    <button onclick="welcome()">welocme</button>
+    <br/>
+    <h1 id="d1">hey user</h1>
+    <h1 id="d2">hey user</h1>
+    <button onclick="change()" ondblclick="change2()">change</button>
+    <button onclick="change1()">change</button>
+    <script>
+        function getMsg(){
+            alert("my name is devain");
+            console.log("my name is devain");
+        }
+        function welcome(){
+            console.log("welcome to my page");
+        }
+        function change(){
+            document.getElementById("d1").innerHTML="<mark>bye user</mark>"
+        }
+        function change1(){
+            document.getElementById("d2").innerText="bye user"
+        }
+        function change2(){
+            document.getElementById("d1").innerText="bye user"
+        }
+        
+    </script>
+</body>
+</html>
